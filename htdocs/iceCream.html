@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title> Jungle </title>
+  <link type = "text/css" rel="stylesheet" href="css/simple.css"/>
+  <meta charset="utf-8" />
+</head>
+<body>
+
+  <h1> Ice-Cream Shop!</h1>
+  <form action ="iceCream.php" method ="post">
+
+    Please choose your favourite Ice-cream flavour: <br>
+    <input type="radio" name="flavour" value="Vanilla"> Vanilla<br>
+    <input type="radio" name="flavour" value="Chocolate"> Chocolate<br>
+    <input type="radio" name="flavour" value="Strawberry"> Strawberry<br><br>
+
+    Please select your Toppings <br>
+
+    <input type = "checkbox" name = "topping[]" value = "Chocolate Sauce" />Chocolate Sauce<br>
+    <input type = "checkbox" name = "topping[]" value = "M&M's" />M&M's<br>
+    <input type = "checkbox" name = "topping[]" value = "Sprinkles" />Sprinkles<br>
+    <input type = "checkbox" name = "topping[]" value = "Fruit" />Fruit<br><br>
+
+    Please check the box if you want your answer to be displayed:
+    <input type="checkbox" name = "display" value= "yes"><br><br>
+    <input type="submit" name = "submit" value= "Submit"><br><br>
+  </form>
